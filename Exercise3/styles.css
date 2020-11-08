@@ -1,0 +1,69 @@
+body
+{
+    background-color: ffe6d5;
+}
+
+h1
+{
+    color : 1d5562;
+    font-family : fantasy;
+    font-size : 30px;
+}
+
+h1:hover
+{
+    color : ed4b56;
+    font-size : 50px;
+}
+
+img
+{
+    width: 600px;
+    height: 400px
+}
+
+p
+{
+    font-family: cursive;
+    color : 4fb1a1;
+}
+
+p.age
+{
+    font-family : fantasy;
+    color: df6e5b;
+}
+
+a
+{
+    font-family: cursive;
+}
+
+#info
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5vmin;
+}
+
+#textInfo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5vmin;
+}
+
+#hero
+{
+    background-image: url(hero.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#squad
+{
+    width: 300;
+    height: 200;
+}
